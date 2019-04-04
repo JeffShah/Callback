@@ -29,6 +29,7 @@ var reversed = function(word) {
 console.log(map(words, reversed));
 
 
+// This is just another approach to do the callback-maps:
 
 /*
 var words = ["ground", "control", "to", "major", "tom"];
