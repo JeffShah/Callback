@@ -1,29 +1,5 @@
 var words = ["ground", "control", "to", "major", "tom"];
 
-var wordLength = words.map(function(num) {
-  var output = [];
-  var wordLength =
-  console.log(num.length);
-  return word.length;
-});
-
-var wordToUpperCase = word.map(function(num) {
-  var output = [];
-  return word.toUpperCase();
-});
-
-var wordReversed = word.map(function(num) {
-  return word.split('').reverse().join('');
-});
-
-console.log(wordLength);
-console.log(wordToUpperCase);
-console.log(wordReversed);
-
-/*
-
-var words = ["ground", "control", "to", "major", "tom"];
-
 function map(arr, func) {
   var output = [];
 
@@ -54,5 +30,26 @@ console.log(map(words, reversed));
 
 
 
-*/
+/*
+var words = ["ground", "control", "to", "major", "tom"];
 
+var wordLength = words.map(function(element) {
+  var output = [];
+  //var wordLength = 
+  console.log(element.length);
+  return element.length;
+});
+
+var wordToUpperCase = words.map(function(element) {
+  var output = [];
+  return element.toUpperCase();
+});
+
+var wordReversed = words.map(function(element) {
+  return element.split('').reverse().join('');
+});
+
+console.log(wordLength);
+console.log(wordToUpperCase);
+console.log(wordReversed);
+*/
